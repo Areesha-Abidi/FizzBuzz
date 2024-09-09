@@ -7,14 +7,14 @@ class FizzBuzz {
 
         int i = 1;
         while(i < 100){
-        //for (int i = 1; i < 100; i++) {
+        // for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
             i = doFizzBuzz(i);
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
